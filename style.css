@@ -1,0 +1,95 @@
+/* Header */
+.header1 {
+  height: 100%;
+  background-image: url("https://static.vecteezy.com/system/resources/previews/000/691/499/non_2x/rock-paper-scissors-seamless-pattern-vector.png");
+  background-size: cover;
+  text-align: center;
+}
+
+body {
+background-color:#ffe5ee;
+}
+
+.caption {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#home .container {
+  padding-top: 15px;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: white;
+}
+
+.ftext {
+  margin-right: 150px !important;
+  margin-left: 150px!important;
+  font-size: 20px !important;
+  height: 85%;
+}
+
+img {
+  width: 15em;
+  text-align: center;
+}
+
+.ftext p, .ftext1 p {
+  font-size: 20px !important;
+}
+
+.ftext h5, .ftext1 h5 {
+  font-size: 25px !important;
+}
+
+body{
+   text-align: center;
+}
+h1{
+   margin-top: 100px;
+}
+p{
+padding:100px 20px 100px 20px;
+margin-top: 50px;
+font-size: 25px;
+color: white;
+font-weight: bold;
+}
+
+.speech-bubble {
+  position: relative;
+  background: #ee598a;
+  border-radius: .4em;
+}
+
+.speech-bubble:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  height: 0;
+  border: 20px solid transparent;
+  border-left-color: #FF5890;
+  border-right: 0;
+  margin-top: -20px;
+  margin-right: -20px;
+}
+
+.buttonId {
+  border-radius: 40px;
+  border:0;
+  font-weight:600;
+  padding: 10px;
+  cursor:pointer;
+  margin-top:10px;
+}
+
+.buttonId-primary{
+background:#188dbf;
+color:white;
+border: 3px solid white;
+}
+.buttonId-primary:hover{
+background:#3ba9d8;
+}
